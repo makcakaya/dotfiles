@@ -14,3 +14,7 @@ DOSKEY sd=explorer .
 :: Dirs
 DOSKEY gdesk=cd %USERPROFILE%\Desktop
 DOSKEY gdoc=cd %USERPROFILE%\Documents
+
+:: Visual Studio Shortcuts w arguments
+DOSKEY vs3="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe" $*
+DOSKEY vs8="C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe" $*
